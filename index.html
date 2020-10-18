@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Autocomplete Feature</title>
+    <script src="SpellCheck.js" defer></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="AutocompleteFeature">
+    <h1> Autocomplete Feature </h1>
+  </header>
+
+  <main class="main">
+    <article class="intro">
+      <p> Here you can enter any word. The goal is to check for autocomplete feature </p>
+    </article>
+<!-- Input Text Feature To store value in a Tree -->
+    <section class="text-area">
+      <div id="input-text">
+        <p> Enter any word here to store </p>
+      </div>
+
+      <div class="text-wrapper">
+        <textarea id="text-to-store" name="textarea" rows="1" placeholder="Enter a word here." ></textarea>
+      </div>
+      <div class="store-button">
+        <button id="storeButton">Store</button>
+      </div>
+    </section>
+
+<!-- Searching feature for the stored value.............. -->
+    <section class="mode-change">
+      <div id="input-text">
+        <p> Enter to Search </p>
+      </div>
+
+      <div class="text-wrapper">
+        <textarea id="text-to-search" name="textarea" rows="1"></textarea>
+      </div>
+    </section>
+
+<!-- Output results...................................... -->
+    <section class="outputText">
+      <div id="input-text">
+        <p> Are you searching for ..?</p>
+      </div>
+      <div class="text-wrapper">
+        <textarea id="search-output" name="textarea" rows="5"></textarea>
+      </div>
+      <button id="reset">Reset</button>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
